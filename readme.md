@@ -1,4 +1,4 @@
-# Daphnia-Egg-bank-Models
+# Drift effects
 
 The computer program NeBias.cpp estimates the degree to which a residual egg/seed bank influences the apparent magnitude of genetic drift from generation to generation. It is assumed that each diapausing embryo produced in a particular year has probability of hatching (phatch) in each subsequent year, with (1 – phatch) surviving to a subsequent year. Consecutive years of samples are drawn from the pool of hatchlings, and then used to estimate the Ne required to account for the observed allele-frequency change in adjacent years. To look at the pure effects of drift, it is assumed that sampling variance on the part of the investigator is absent. Many independent runs of this process are performed starting from a particular allele frequency and allowing sufficient numbers of generations to proceed so that essentially all eggs laid in a particular generation have hatched before statistics are accumulated (i.e., approximating a steady-state process).
 
